@@ -1,0 +1,18 @@
+name: PrayAndWorship
+version: 3.2.8
+description: A plugin for creating altars and making sacrifices for rewards.
+author: Overtime
+main: com.prayandworship.PrayAndWorshipPlugin
+api-version: 1.13
+
+commands:
+  # If you have any commands, list them here.
+  # examplecommand:
+  #   description: An example command.
+  #   usage: /<command>
+
+permissions:
+  # If you have any permissions, list them here.
+  # prayandworship.use:
+  #   description: Allows the user to use the altar
+  #   default: true

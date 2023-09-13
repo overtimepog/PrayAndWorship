@@ -1,0 +1,21 @@
+worldName: "world"
+
+altars:
+  default_altar:
+    schematic: "plugins/PrayAndWorship/alter.schem"
+    sacrifice_block: "NETHERITE_BLOCK"
+    sacrifices:
+      GOLD_INGOT_1, DIAMOND_1:
+        effect: "SPEED"
+        duration: 600
+        amplifier: 1
+        success-message: "Overtime has Granted you Speed"
+      DIAMOND_1, EMERALD_1:
+        effect: "JUMP"
+        duration: 600
+        amplifier: 2
+        success-message: "You offered an apple at altar1 and received a blessing!"
+    messages:
+      altar_created: "§aCongrats! You've just built the default altar!"
+      sacrifice_failed: "§cOops! Your offerings weren't right for this altar. Try again."
+      ritual_interrupted: "§cAlert! Your ritual at the default altar was disrupted."
