@@ -39,7 +39,7 @@
     <dependency>
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot-api</artifactId>
-      <version>1.16.5-R0.1-SNAPSHOT</version> <!-- Change this to your desired version -->
+      <version>1.20.1-R0.1-SNAPSHOT</version> <!-- Change this to your desired version -->
       <scope>provided</scope>
     </dependency>
 
